@@ -53,9 +53,11 @@ main {
 	margin: 35px auto;
 }
 
+
 img {
 	margin: 40px 8px;
 }
+
 footer {
 	text-transform: uppercase;
 	padding: 0px 20px;
@@ -65,15 +67,19 @@ footer {
 	letter-spacing: .08em;
 	font-weight: 500;
 }
+
 .copyright, .message {
 	font-family: raleway;
 }
+
 .copyright {
 	float: left;
 }
+
 .message {
 	float: right;
 }
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -82,14 +88,31 @@ footer {
 	height: 0;
 	font-size: 0;
 }
+
 .name {
 	color: #F15B31;
 	font-weight: 700;
 }
+
+.ig {
+	font-family: raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+.ig:hover {
+	border-color: #0D2C40;
+}
+
 a {
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 }
+
 a:hover {
 	border-color: white;
 }
