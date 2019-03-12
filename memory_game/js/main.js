@@ -1,3 +1,5 @@
+console.log("Up and running!");
+
 var cards = [
 {
 	rank: "queen",
@@ -24,7 +26,7 @@ var cards = [
 var cardsInPlay = [];
 
 var checkForMatch = function () {
-	this.getAttribute('src', 'images/');                    //FUCKING BULLSHIT 
+	//this.getAttribute('src', 'images/');                    //!!!!!
 	if (cardsInPlay[0] === cardsInPlay[1]) {
     console.log("You found a match!");
   } else {
@@ -33,8 +35,8 @@ var checkForMatch = function () {
 }
 
 var flipCard = function () {
-  var cardId = this.getAttribute('#data-id');
-  checkForMatch();                                      //FUCKING BULLSHIT
+  var cardId = this.getAttribute('data-id');
+  checkForMatch();                                      //!!!!!!!!!!
   console.log("User flipped " + cards[cardId].rank);
   cardsInPlay.push(cards[cardId].rank);
   console.log(cards[cardId].cardImage);
